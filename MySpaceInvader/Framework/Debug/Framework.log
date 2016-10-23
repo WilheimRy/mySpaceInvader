@@ -1,0 +1,34 @@
+﻿Build started 11/08/2016 3:22:12 PM.
+     1>Project "C:\Users\wmd000\Desktop\Z_正用\AUT\Papers AUT\GP Game Programming\week03_session06_audio\GP2DFrameworkRY\Framework\Framework.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\wmd000\Desktop\Z_正用\AUT\Papers AUT\GP Game Programming\week03_session06_audio\GP2DFrameworkRY\\FMOD\inc\\" /I"C:\Users\wmd000\Desktop\Z_正用\AUT\Papers AUT\GP Game Programming\week03_session06_audio\GP2DFrameworkRY\\SDL\SDL2-2.0.3\include\\" /I"C:\Users\wmd000\Desktop\Z_正用\AUT\Papers AUT\GP Game Programming\week03_session06_audio\GP2DFrameworkRY\\SDL\SDL2_image-2.0.0\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt entity.cpp
+         entity.cpp
+     1>c:\users\wmd000\desktop\z_正用\aut\papers aut\gp game programming\week03_session06_audio\gp2dframeworkry\framework\entity.cpp(92): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\wmd000\desktop\z_正用\aut\papers aut\gp game programming\week03_session06_audio\gp2dframeworkry\framework\entity.cpp(93): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\wmd000\desktop\z_正用\aut\papers aut\gp game programming\week03_session06_audio\gp2dframeworkry\framework\entity.cpp(96): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\wmd000\desktop\z_正用\aut\papers aut\gp game programming\week03_session06_audio\gp2dframeworkry\framework\entity.cpp(97): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\wmd000\Desktop\Z_正用\AUT\Papers AUT\GP Game Programming\week03_session06_audio\GP2DFrameworkRY\Debug\Framework.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\wmd000\Desktop\Z_正用\AUT\Papers AUT\GP Game Programming\week03_session06_audio\GP2DFrameworkRY\\FMOD\lib\\" /LIBPATH:"C:\Users\wmd000\Desktop\Z_正用\AUT\Papers AUT\GP Game Programming\week03_session06_audio\GP2DFrameworkRY\\SDL\SDL2-2.0.3\lib\x86" /LIBPATH:"C:\Users\wmd000\Desktop\Z_正用\AUT\Papers AUT\GP Game Programming\week03_session06_audio\GP2DFrameworkRY\\SDL\SDL2_image-2.0.0\lib\x86" SDL2.lib SDL2main.lib SDL2_image.lib fmodl_vc.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\wmd000\Desktop\Z_正用\AUT\Papers AUT\GP Game Programming\week03_session06_audio\GP2DFrameworkRY\Debug\Framework.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\wmd000\Desktop\Z_正用\AUT\Papers AUT\GP Game Programming\week03_session06_audio\GP2DFrameworkRY\Debug\Framework.lib" /MACHINE:X86 Debug\animatedsprite.obj
+         Debug\backbuffer.obj
+         Debug\Bullet.obj
+         Debug\Enemy.obj
+         Debug\EnemyParticle.obj
+         Debug\entity.obj
+         Debug\Explosion.obj
+         Debug\game.obj
+         Debug\inputhandler.obj
+         Debug\logmanager.obj
+         Debug\main.obj
+         Debug\Particle.obj
+         Debug\ParticlesEmitter.obj
+         Debug\PlayerShip.obj
+         Debug\sprite.obj
+         Debug\texture.obj
+         Debug\texturemanager.obj
+         Debug\Vector2D.obj
+         Framework.vcxproj -> C:\Users\wmd000\Desktop\Z_正用\AUT\Papers AUT\GP Game Programming\week03_session06_audio\GP2DFrameworkRY\Debug\Framework.exe
+     1>Done Building Project "C:\Users\wmd000\Desktop\Z_正用\AUT\Papers AUT\GP Game Programming\week03_session06_audio\GP2DFrameworkRY\Framework\Framework.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.83
